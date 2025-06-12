@@ -43,7 +43,7 @@ app.use('/api/gifts', giftRoutes);
 
 // Search API Task 2: add the searchRoutes to the server by using the app.use() method.
 //{{insert code here}}
-app.use('/api/searchRoutes');
+app.use('/api/searchRoutes', searchRoutes);
 
 
 // Global Error Handler
